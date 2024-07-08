@@ -22,6 +22,7 @@
 				<Item Name="Initialize Arduino Argument--cluster.ctl" Type="VI" URL="../Initialize Arduino Argument--cluster.ctl"/>
 				<Item Name="Connect Argument--cluster.ctl" Type="VI" URL="../Connect Argument--cluster.ctl"/>
 				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
+				<Item Name="Init motors Argument--cluster.ctl" Type="VI" URL="../Init motors Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -30,6 +31,7 @@
 				<Item Name="Connection successful Argument--cluster.ctl" Type="VI" URL="../Connection successful Argument--cluster.ctl"/>
 				<Item Name="Connection failed Argument--cluster.ctl" Type="VI" URL="../Connection failed Argument--cluster.ctl"/>
 				<Item Name="Device disconnected Argument--cluster.ctl" Type="VI" URL="../Device disconnected Argument--cluster.ctl"/>
+				<Item Name="Motors ready Argument--cluster.ctl" Type="VI" URL="../Motors ready Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -39,6 +41,7 @@
 			<Item Name="Show Diagram.vi" Type="VI" URL="../Show Diagram.vi"/>
 			<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
 			<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
+			<Item Name="Init motors.vi" Type="VI" URL="../Init motors.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -59,6 +62,7 @@
 		<Item Name="Connection successful.vi" Type="VI" URL="../Connection successful.vi"/>
 		<Item Name="Connection failed.vi" Type="VI" URL="../Connection failed.vi"/>
 		<Item Name="Device disconnected.vi" Type="VI" URL="../Device disconnected.vi"/>
+		<Item Name="Motors ready.vi" Type="VI" URL="../Motors ready.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -121,6 +125,10 @@
 		<Item Name="Get Module Running State.vi" Type="VI" URL="../Get Module Running State.vi"/>
 		<Item Name="Is Safe to Destroy Refnums.vi" Type="VI" URL="../Is Safe to Destroy Refnums.vi"/>
 		<Item Name="Module Running State--enum.ctl" Type="VI" URL="../Module Running State--enum.ctl"/>
+	</Item>
+	<Item Name="Support" Type="Folder">
+		<Item Name="Validate connection.vi" Type="VI" URL="../Support/Validate connection.vi"/>
+		<Item Name="Wait for motor init.vi" Type="VI" URL="../Support/Wait for motor init.vi"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
