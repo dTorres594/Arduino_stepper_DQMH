@@ -45,18 +45,24 @@
 	</Item>
 	<Item Name="Third-party" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">1</Property>
-		<Item Name="CH341SER" Type="Folder">
-			<Item Name="DRVSETUP64" Type="Folder">
-				<Item Name="DRVSETUP64.exe" Type="Document" URL="../3rd party/CH341SER/DRVSETUP64/DRVSETUP64.exe"/>
+		<Item Name="Arduino driver" Type="Folder">
+			<Item Name="CH341SER" Type="Folder">
+				<Item Name="DRVSETUP64" Type="Folder">
+					<Item Name="DRVSETUP64.exe" Type="Document" URL="../3rd party/CH341SER/DRVSETUP64/DRVSETUP64.exe"/>
+				</Item>
+				<Item Name="CCW icon.png" Type="Document" URL="../3rd party/CCW icon.png"/>
+				<Item Name="CDM21228_Setup.exe" Type="Document" URL="../3rd party/CDM21228_Setup.exe"/>
+				<Item Name="CDM212364_Setup.exe" Type="Document" URL="../3rd party/CDM212364_Setup.exe"/>
+				<Item Name="CH341PT.DLL" Type="Document" URL="../3rd party/CH341SER/CH341PT.DLL"/>
+				<Item Name="CH341S64.SYS" Type="Document" URL="../3rd party/CH341SER/CH341S64.SYS"/>
+				<Item Name="CH341S98.SYS" Type="Document" URL="../3rd party/CH341SER/CH341S98.SYS"/>
+				<Item Name="CH341SER.CAT" Type="Document" URL="../3rd party/CH341SER/CH341SER.CAT"/>
+				<Item Name="CH341SER.INF" Type="Document" URL="../3rd party/CH341SER/CH341SER.INF"/>
+				<Item Name="CH341SER.SYS" Type="Document" URL="../3rd party/CH341SER/CH341SER.SYS"/>
+				<Item Name="CH341SER.VXD" Type="Document" URL="../3rd party/CH341SER/CH341SER.VXD"/>
+				<Item Name="CW icon.png" Type="Document" URL="../3rd party/CW icon.png"/>
+				<Item Name="SETUP.EXE" Type="Document" URL="../3rd party/CH341SER/SETUP.EXE"/>
 			</Item>
-			<Item Name="CH341PT.DLL" Type="Document" URL="../3rd party/CH341SER/CH341PT.DLL"/>
-			<Item Name="CH341S64.SYS" Type="Document" URL="../3rd party/CH341SER/CH341S64.SYS"/>
-			<Item Name="CH341S98.SYS" Type="Document" URL="../3rd party/CH341SER/CH341S98.SYS"/>
-			<Item Name="CH341SER.CAT" Type="Document" URL="../3rd party/CH341SER/CH341SER.CAT"/>
-			<Item Name="CH341SER.INF" Type="Document" URL="../3rd party/CH341SER/CH341SER.INF"/>
-			<Item Name="CH341SER.SYS" Type="Document" URL="../3rd party/CH341SER/CH341SER.SYS"/>
-			<Item Name="CH341SER.VXD" Type="Document" URL="../3rd party/CH341SER/CH341SER.VXD"/>
-			<Item Name="SETUP.EXE" Type="Document" URL="../3rd party/CH341SER/SETUP.EXE"/>
 		</Item>
 		<Item Name="Stepper_V4.ino" Type="Document" URL="../Stepper_V4/Stepper_V4.ino"/>
 	</Item>
