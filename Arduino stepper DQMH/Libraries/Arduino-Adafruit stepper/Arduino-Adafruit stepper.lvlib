@@ -23,6 +23,7 @@
 				<Item Name="Connect Argument--cluster.ctl" Type="VI" URL="../Connect Argument--cluster.ctl"/>
 				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
 				<Item Name="Init motors Argument--cluster.ctl" Type="VI" URL="../Init motors Argument--cluster.ctl"/>
+				<Item Name="Home motors Argument--cluster.ctl" Type="VI" URL="../Home motors Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -42,6 +43,7 @@
 			<Item Name="Connect.vi" Type="VI" URL="../Connect.vi"/>
 			<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
 			<Item Name="Init motors.vi" Type="VI" URL="../Init motors.vi"/>
+			<Item Name="Home motors.vi" Type="VI" URL="../Home motors.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
