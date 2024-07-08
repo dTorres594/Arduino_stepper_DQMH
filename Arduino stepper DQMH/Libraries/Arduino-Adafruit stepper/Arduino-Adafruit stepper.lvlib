@@ -24,6 +24,10 @@
 				<Item Name="Disconnect Argument--cluster.ctl" Type="VI" URL="../Disconnect Argument--cluster.ctl"/>
 				<Item Name="Init motors Argument--cluster.ctl" Type="VI" URL="../Init motors Argument--cluster.ctl"/>
 				<Item Name="Home motors Argument--cluster.ctl" Type="VI" URL="../Home motors Argument--cluster.ctl"/>
+				<Item Name="Begin movement Argument--cluster.ctl" Type="VI" URL="../Begin movement Argument--cluster.ctl"/>
+				<Item Name="Move motors Argument--cluster.ctl" Type="VI" URL="../Move motors Argument--cluster.ctl"/>
+				<Item Name="Stop movement Argument--cluster.ctl" Type="VI" URL="../Stop movement Argument--cluster.ctl"/>
+				<Item Name="Stop motors Argument--cluster.ctl" Type="VI" URL="../Stop motors Argument--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -33,6 +37,7 @@
 				<Item Name="Connection failed Argument--cluster.ctl" Type="VI" URL="../Connection failed Argument--cluster.ctl"/>
 				<Item Name="Device disconnected Argument--cluster.ctl" Type="VI" URL="../Device disconnected Argument--cluster.ctl"/>
 				<Item Name="Motors ready Argument--cluster.ctl" Type="VI" URL="../Motors ready Argument--cluster.ctl"/>
+				<Item Name="System busy Argument--cluster.ctl" Type="VI" URL="../System busy Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -44,6 +49,10 @@
 			<Item Name="Disconnect.vi" Type="VI" URL="../Disconnect.vi"/>
 			<Item Name="Init motors.vi" Type="VI" URL="../Init motors.vi"/>
 			<Item Name="Home motors.vi" Type="VI" URL="../Home motors.vi"/>
+			<Item Name="Begin movement.vi" Type="VI" URL="../Begin movement.vi"/>
+			<Item Name="Move motors.vi" Type="VI" URL="../Move motors.vi"/>
+			<Item Name="Stop movement.vi" Type="VI" URL="../Stop movement.vi"/>
+			<Item Name="Stop motors.vi" Type="VI" URL="../Stop motors.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -65,6 +74,7 @@
 		<Item Name="Connection failed.vi" Type="VI" URL="../Connection failed.vi"/>
 		<Item Name="Device disconnected.vi" Type="VI" URL="../Device disconnected.vi"/>
 		<Item Name="Motors ready.vi" Type="VI" URL="../Motors ready.vi"/>
+		<Item Name="System busy.vi" Type="VI" URL="../System busy.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
