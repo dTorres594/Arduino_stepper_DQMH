@@ -38,6 +38,7 @@
 				<Item Name="Device disconnected Argument--cluster.ctl" Type="VI" URL="../Device disconnected Argument--cluster.ctl"/>
 				<Item Name="Motors ready Argument--cluster.ctl" Type="VI" URL="../Motors ready Argument--cluster.ctl"/>
 				<Item Name="System busy Argument--cluster.ctl" Type="VI" URL="../System busy Argument--cluster.ctl"/>
+				<Item Name="State info available Argument--cluster.ctl" Type="VI" URL="../State info available Argument--cluster.ctl"/>
 			</Item>
 		</Item>
 		<Item Name="Requests" Type="Folder">
@@ -75,6 +76,7 @@
 		<Item Name="Device disconnected.vi" Type="VI" URL="../Device disconnected.vi"/>
 		<Item Name="Motors ready.vi" Type="VI" URL="../Motors ready.vi"/>
 		<Item Name="System busy.vi" Type="VI" URL="../System busy.vi"/>
+		<Item Name="State info available.vi" Type="VI" URL="../State info available.vi"/>
 	</Item>
 	<Item Name="Requests" Type="Folder">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
@@ -141,8 +143,18 @@
 	<Item Name="Support" Type="Folder">
 		<Item Name="Validate connection.vi" Type="VI" URL="../Support/Validate connection.vi"/>
 		<Item Name="Wait for motor init.vi" Type="VI" URL="../Support/Wait for motor init.vi"/>
+		<Item Name="Write command.vi" Type="VI" URL="../Support/Write command.vi"/>
+		<Item Name="Data string to info.vi" Type="VI" URL="../Support/Data string to info.vi"/>
+	</Item>
+	<Item Name="Controls" Type="Folder">
+		<Item Name="Motor info -- typedef.ctl" Type="VI" URL="../Support/Motor info -- typedef.ctl"/>
+		<Item Name="Movement config -- typedef.ctl" Type="VI" URL="../Support/Movement config -- typedef.ctl"/>
+		<Item Name="State info -- typedef.ctl" Type="VI" URL="../Support/State info -- typedef.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
 	</Item>
+	<Item Name="String to positions.vi" Type="VI" URL="../Support/String to positions.vi"/>
+	<Item Name="String to sensor value.vi" Type="VI" URL="../Support/String to sensor value.vi"/>
+	<Item Name="String to end-stop.vi" Type="VI" URL="../Support/String to end-stop.vi"/>
 </Library>
