@@ -28,6 +28,10 @@
 				<Item Name="Wake HL Argument--cluster.ctl" Type="VI" URL="../Wake HL Argument--cluster.ctl"/>
 				<Item Name="Stop movement Argument--cluster.ctl" Type="VI" URL="../Stop movement Argument--cluster.ctl"/>
 				<Item Name="Sleep HL Argument--cluster.ctl" Type="VI" URL="../Sleep HL Argument--cluster.ctl"/>
+				<Item Name="Get motor positions Argument--cluster.ctl" Type="VI" URL="../Get motor positions Argument--cluster.ctl"/>
+				<Item Name="Get motor positions (Reply Payload)--cluster.ctl" Type="VI" URL="../Get motor positions (Reply Payload)--cluster.ctl"/>
+				<Item Name="Get end-stop status Argument--cluster.ctl" Type="VI" URL="../Get end-stop status Argument--cluster.ctl"/>
+				<Item Name="Get end-stop status (Reply Payload)--cluster.ctl" Type="VI" URL="../Get end-stop status (Reply Payload)--cluster.ctl"/>
 			</Item>
 			<Item Name="Broadcast" Type="Folder">
 				<Item Name="Did Init Argument--cluster.ctl" Type="VI" URL="../Did Init Argument--cluster.ctl"/>
@@ -56,6 +60,8 @@
 			<Item Name="Wake HL.vi" Type="VI" URL="../Wake HL.vi"/>
 			<Item Name="Stop movement.vi" Type="VI" URL="../Stop movement.vi"/>
 			<Item Name="Sleep HL.vi" Type="VI" URL="../Sleep HL.vi"/>
+			<Item Name="Get motor positions.vi" Type="VI" URL="../Get motor positions.vi"/>
+			<Item Name="Get end-stop status.vi" Type="VI" URL="../Get end-stop status.vi"/>
 		</Item>
 		<Item Name="Start Module.vi" Type="VI" URL="../Start Module.vi"/>
 		<Item Name="Synchronize Module Events.vi" Type="VI" URL="../Synchronize Module Events.vi"/>
@@ -154,6 +160,7 @@
 		<Item Name="String to end-stop.vi" Type="VI" URL="../Support/String to end-stop.vi"/>
 		<Item Name="Build move command.vi" Type="VI" URL="../Support/Build move command.vi"/>
 		<Item Name="Build home command.vi" Type="VI" URL="../Support/Build home command.vi"/>
+		<Item Name="Query command.vi" Type="VI" URL="../Support/Query command.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Motor info -- typedef.ctl" Type="VI" URL="../Support/Motor info -- typedef.ctl"/>
