@@ -166,6 +166,12 @@
 		<Item Name="Motor info -- typedef.ctl" Type="VI" URL="../Support/Motor info -- typedef.ctl"/>
 		<Item Name="Movement config -- typedef.ctl" Type="VI" URL="../Support/Movement config -- typedef.ctl"/>
 		<Item Name="State info -- typedef.ctl" Type="VI" URL="../Support/State info -- typedef.ctl"/>
+		<Item Name="Com Port Options.ctl" Type="VI" URL="../Support/Com Port Options.ctl"/>
+		<Item Name="Motor direction.ctl" Type="VI" URL="../Support/Motor direction.ctl"/>
+		<Item Name="Motor info.ctl" Type="VI" URL="../Support/Motor info.ctl"/>
+		<Item Name="Motor initialization parameters--cluster.ctl" Type="VI" URL="../Support/Motor initialization parameters--cluster.ctl"/>
+		<Item Name="Move motor parameters--cluster.ctl" Type="VI" URL="../Support/Move motor parameters--cluster.ctl"/>
+		<Item Name="Step style.ctl" Type="VI" URL="../Support/Step style.ctl"/>
 	</Item>
 	<Item Name="Main.vi" Type="VI" URL="../Main.vi">
 		<Property Name="NI.LibItem.Scope" Type="Int">2</Property>
