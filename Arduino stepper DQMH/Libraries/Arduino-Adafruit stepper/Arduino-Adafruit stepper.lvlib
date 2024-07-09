@@ -152,6 +152,8 @@
 		<Item Name="String to positions.vi" Type="VI" URL="../Support/String to positions.vi"/>
 		<Item Name="String to sensor value.vi" Type="VI" URL="../Support/String to sensor value.vi"/>
 		<Item Name="String to end-stop.vi" Type="VI" URL="../Support/String to end-stop.vi"/>
+		<Item Name="Build move command.vi" Type="VI" URL="../Support/Build move command.vi"/>
+		<Item Name="Build home command.vi" Type="VI" URL="../Support/Build home command.vi"/>
 	</Item>
 	<Item Name="Controls" Type="Folder">
 		<Item Name="Motor info -- typedef.ctl" Type="VI" URL="../Support/Motor info -- typedef.ctl"/>
